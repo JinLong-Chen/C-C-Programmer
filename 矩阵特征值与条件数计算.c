@@ -140,8 +140,6 @@ int main()
                 matrixMulti(A,X);                
                 maxElemt2 = GetMax(X);
                 minElemt2 = GetMin(X);
-            //    cout<<"maxElemt2 = "<<maxElemt2<<endl<<endl;
-            //    cout<<"minElemt2 = "<<minElemt2<<endl<<endl;
             
         }while(fabs((maxElemt2-maxElemt1)/maxElemt1 )> 0.0000001);
         conddd[num_x]=maxElemt2/minElemt2;
