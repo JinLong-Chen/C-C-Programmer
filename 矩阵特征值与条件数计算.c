@@ -143,9 +143,9 @@ int main()
             
         }while(fabs((maxElemt2-maxElemt1)/maxElemt1 )> 0.0000001);
         conddd[num_x]=maxElemt2/minElemt2;
-printf("t_k = %e,",t_k[num_x]);
-printf("迭代次数 = %d,",iter);
-printf("最大特征值 = %d\n",maxElemt2);
+    printf("t_k = %e,",t_k[num_x]);
+    printf("迭代次数 = %d,",iter);
+    printf("最大特征值 = %d\n",maxElemt2);
        // cout<<" t_k = "<<t_k[num_x];
 		//cout<<" 迭代次数n = "<<iter;
         //cout<<" 最大特征值="<<maxElemt2<<endl;
